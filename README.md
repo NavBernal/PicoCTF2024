@@ -1,2 +1,2 @@
 # PicoCTF2024
-Notes/write-ups for PicoCTF2024 Team Competition
+This repository will contain notes/write-ups for the PicoCTF 2024 Team Competition
