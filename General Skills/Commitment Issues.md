@@ -8,5 +8,5 @@
 ![[Pasted image 20240312232532.png]]
 8. This presented the logs in a more readable format and made it clear the exact commit hash that I needed in order to display the flag
 9. After looking around the web some more, I came across the following [stack overflow post](https://stackoverflow.com/questions/7663451/view-a-specific-git-commit) that stated all I needed was the simple command `git show <revhash>`
-10. After running this in my kali machine, I was presented with the following that gave me my flag:
+10. After running this in my Kali machine, I was presented with the following that gave me my flag **picoCTF{s@n1t1z3_c785c319}**:
 ![[Pasted image 20240312232904.png]]
