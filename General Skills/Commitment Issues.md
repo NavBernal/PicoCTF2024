@@ -1,3 +1,8 @@
+## Description
+I accidentally wrote the flag down. Good thing I deleted it! You download the challenge files here:
+- [challenge.zip](https://artifacts.picoctf.net/c_titan/138/challenge.zip)
+
+## Steps to Solve
 1. I downloaded and extracted the `challenge.zip` file inside my Kali VM and began poking around
 2. After running a `ls -a` command on the drop-in folder that was extracted from the zip file, I found that there was a hidden .git folder
 3. I first began poking around this folder and took a look at the logs folder where I then navigated to `refs/heads` and found the master branch
