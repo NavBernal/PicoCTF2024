@@ -12,3 +12,6 @@ Additional details will be available after launching your challenge instance.
 5. This didn't tell me much, so I decided to open the image using the GUI only to find a simple QR code
 6. As I was hesitant to scan the code, I decided to run some extra forensic commands on the image to see if I could get any more useful information
 7. I first tried running `exiftool`, but this didn't seem to give me any useful information outside of confirming that this is a png file
+8. I then ran `binwalk` on the image, but once again it didn't give me any useful info
+9. I then decided to finally scan the qr code using my phone, and what do you know, I got the flag
+10. After feeling like an idiot, I was happy to have the following flag: **picoCTF{p33k_@_b00_19eccd10}**
