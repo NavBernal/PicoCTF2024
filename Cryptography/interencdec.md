@@ -11,4 +11,12 @@ Can you get the real meaning from this file. Download the file [here](https://ar
 7. I decided that instead of just using a binary to text converter, I'd instead use [CyberChef](https://gchq.github.io/CyberChef/)as this would allow me to easily add multiple conversions in a single web-page rather than jumping from one website to the next
 8. While I thought this was what I needed to do, I realized that these numbers weren't actually binary at all and instead decimal
 9. By running the input with a decimal recipe within CyberChef, I got the following result: `That is sample text`
-10. This didn't seem to help me at all and I realized that more needed to be done on my end to solve this challenge
+10. This didn't seem to help me at all and I realized that I must've made a mistake somewhere during the decrypting/conversion process
+11. I noticed that one of the tags for this challenge was 'base64' which I took as a hint that this text must be in base64 format
+12. When putting the text into CyberChef to convert it from base64, this didn't seem to help much as the output I received was `b'd3BqdkpBTXtqaGx6aHlfazNqeTl3YTNrXzg2a2wzMmsyfQ=='`
+13. I tried inputting the text into the hash identifier tool found on [hashes.com](https://hashes.com/en/tools/hash_identifier) however it stated that it could not identify the hash
+14. I double checked the original hash on the same website and it did confirm that it is a Base64 Encoded String
+15. Seeing as how I wasn't sure how to proceed further, I decided to take a look at the single hint provided by pico for this problem
+16. All the hint told me was `Engaging in various decoding processes is of utmost importance`
+17. This led me to believe that I was on the right path by using CyberChef, I just needed to figure out with decoder to use next
+18. I decided to take a break from this problem and come back to it at a later time
