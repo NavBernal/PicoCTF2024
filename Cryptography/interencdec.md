@@ -20,3 +20,5 @@ Can you get the real meaning from this file. Download the file [here](https://ar
 16. All the hint told me was `Engaging in various decoding processes is of utmost importance`
 17. This led me to believe that I was on the right path by using CyberChef, I just needed to figure out with decoder to use next
 18. I decided to take a break from this problem and come back to it at a later time
+19. After coming back to the problem, I noticed that if I removed the first letter b from the output CyberChef gave me earlier, then the output I got was `wpjvJAM{jhlzhy_k3jy9wa3k_86kl32k2}`
+20. A teammate of mine realized that this had to have contained the flag as it was in a similar format and he put this text into a [caesar cipher decoder](https://www.dcode.fr/caesar-cipher) and was able to get the correct flag of: **picoCTF{caesar_d3cr9pt3d_86de32d2}**
